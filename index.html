@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAINBOW Gym · Fitness · Spa | Chinnamanur, Megamalai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RAINBOW<span>Gym</span></div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#train">Train</a></li>
+                <li><a href="#spa">Spa</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#timings">Timings</a></li>
+                <li><a href="#visit">Visit</a></li>
+                <li><a href="tel:06382882628" class="cta-btn">Call Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="ratings">
+                <span class="rating-badge">⭐ 4.9 · 80+ ratings on Justdial</span>
+                <span class="rating-badge">⭐ 4.9 on Google</span>
+            </div>
+            <h1 class="hero-title">Fitness with the forest at your back</h1>
+            <p class="hero-subtitle">Rainbow Gym & Fitness Spa has trained Chinnamanur since 2003 — rebuilt top-to-bottom in 2022 with new equipment, set right where the town meets the Megamalai hills.</p>
+            <div class="hero-actions">
+                <a href="https://wa.me/916382882628" class="btn btn-primary">Message on WhatsApp</a>
+                <a href="tel:06382882628" class="btn btn-secondary">063828 82628</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <h3>Established</h3>
+                <p>2003</p>
+            </div>
+            <div class="stat-card">
+                <h3>Renovated</h3>
+                <p>2022</p>
+            </div>
+            <div class="stat-card">
+                <h3>Classes</h3>
+                <p>In-person + Online</p>
+            </div>
+            <div class="stat-card">
+                <h3>Today</h3>
+                <p>Open · closes 9 PM</p>
+            </div>
+            <div class="stat-card">
+                <h3>Location</h3>
+                <p>Forest Office Rd, Chinnamanur</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About the gym</h2>
+                    <h3 class="section-subtitle">Twenty-two years on the forest road</h3>
+                    <p>Rainbow Gym & Fitness Spa opened in Chinnamanur in 2003, on the quiet stretch of Forest Office Road near West Mullaivanam — one of the last streets before Megamalai's tea and forest country begins. In 2022 the whole space was rebuilt with new, top-tier strength and cardio equipment, without losing the neighbourhood gym feel that's kept members coming back for two decades.</p>
+                    <p>Today it runs as both a training floor and a recovery space — gym on one side, spa on the other — with online coaching for members who can't always make it in.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <h4>2003</h4>
+                            <p>Founded</p>
+                        </div>
+                        <div class="about-stat">
+                            <h4>2022</h4>
+                            <p>Fully renovated</p>
+                        </div>
+                        <div class="about-stat">
+                            <h4>4.9★</h4>
+                            <p>Community rating</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=1000&fit=crop" alt="Rebuilt equipment, 2022">
+                    <p class="image-caption">Rebuilt equipment, 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="train" class="training">
+        <div class="container">
+            <h2 class="section-title">Train</h2>
+            <h3 class="section-subtitle">Pick your floor</h3>
+            <p class="section-intro">Three ways to train at Rainbow — switch between them below.</p>
+            
+            <div class="training-tabs">
+                <button class="tab-btn active" data-tab="strength">Strength Training</button>
+                <button class="tab-btn" data-tab="cardio">Cardio & Conditioning</button>
+                <button class="tab-btn" data-tab="online">Online Coaching</button>
+            </div>
+
+            <div class="training-content">
+                <div class="tab-content active" id="strength">
+                    <div class="training-grid">
+                        <div class="training-info">
+                            <h4>Strength Training</h4>
+                            <p>Free weights and machines rebuilt in the 2022 renovation, for members training from their first session to competition prep.</p>
+                            <ul>
+                                <li>Free weights, benches and racks</li>
+                                <li>Guided form checks for beginners</li>
+                                <li>Programs for muscle building and general strength</li>
+                            </ul>
+                        </div>
+                        <div class="training-image">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&h=600&fit=crop" alt="Strength Training">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="cardio">
+                    <div class="training-grid">
+                        <div class="training-info">
+                            <h4>Cardio & Conditioning</h4>
+                            <p>Room to build endurance and burn through a session, with equipment and floor space suited to interval-style training.</p>
+                            <ul>
+                                <li>Cardio machines and open-floor conditioning</li>
+                                <li>Group-paced sessions available</li>
+                                <li>Ask the team about diet guidance alongside your plan</li>
+                            </ul>
+                        </div>
+                        <div class="training-image">
+                            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=600&fit=crop" alt="Cardio Training">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="online">
+                    <div class="training-grid">
+                        <div class="training-info">
+                            <h4>Online Coaching</h4>
+                            <p>For members who can't always make it to Chinnamanur, Rainbow runs online classes alongside its in-person programs.</p>
+                            <ul>
+                                <li>Remote sessions with the training team</li>
+                                <li>Stay on plan between visits</li>
+                                <li>Call the gym to ask what's currently offered</li>
+                            </ul>
+                        </div>
+                        <div class="training-image">
+                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop" alt="Online Coaching">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spa/Recovery Section -->
+    <section id="spa" class="recovery">
+        <div class="container">
+            <h2 class="section-title">Recovery</h2>
+            <h3 class="section-subtitle">Recovery is part of the program</h3>
+            <p class="section-intro">The spa side of Rainbow is built for what comes after training — ask the front desk which treatments are running when you visit.</p>
+            
+            <div class="recovery-grid">
+                <div class="recovery-card">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=400&fit=crop" alt="Therapeutic massage">
+                    <h4>Therapeutic massage</h4>
+                    <p>Hands-on recovery work for tired muscles after a heavy session.</p>
+                </div>
+                <div class="recovery-card">
+                    <img src="https://images.unsplash.com/photo-1583416750470-965b2707b355?w=600&h=400&fit=crop" alt="Steam & recovery">
+                    <h4>Steam & recovery</h4>
+                    <p>A slower-paced space to unwind before you head back into the hills.</p>
+                </div>
+                <div class="recovery-card">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&h=400&fit=crop" alt="Post-workout unwind">
+                    <h4>Post-workout unwind</h4>
+                    <p>Book a slot after training so recovery isn't an afterthought.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section with Flip Cards -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Around the gym</h2>
+            <h3 class="section-subtitle">A look at the floor</h3>
+            <p class="section-intro">Tap or touch a photo to flip it and read what's in the shot.</p>
+            
+            <div class="flip-card-grid">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=400&fit=crop" alt="Gym Signage">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Our Signage</h4>
+                            <p>The Rainbow Gym billboard on the road into Chinnamanur.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop" alt="Front Desk">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Front Desk</h4>
+                            <p>Reception, with the training floor visible just behind it.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&h=400&fit=crop" alt="Free Weights Setup">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Free Weights Setup</h4>
+                            <p>Dumbbells, kettlebells and accessories ready on the floor.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=400&fit=crop" alt="Training Essentials">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Training Essentials</h4>
+                            <p>Medicine balls and dumbbells set out for a conditioning session.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1623874228601-f4193c7b1818?w=600&h=400&fit=crop" alt="Grip & Focus">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Grip & Focus</h4>
+                            <p>Loading up before a strength set.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&h=400&fit=crop" alt="Dumbbell Rack">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Dumbbell Rack</h4>
+                            <p>A full rack, loaded and ready for pickup.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600&h=400&fit=crop" alt="The Machine Floor">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>The Machine Floor</h4>
+                            <p>Cardio and resistance machines with a view.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?w=600&h=400&fit=crop" alt="Training Floor">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Training Floor</h4>
+                            <p>Wide open space for functional training and group sessions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timings Section -->
+    <section id="timings" class="timings">
+        <div class="container">
+            <h2 class="section-title">Hours</h2>
+            <h3 class="section-subtitle">When to come by</h3>
+            
+            <div class="timings-table">
+                <div class="timing-row">
+                    <span class="day">Monday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Tuesday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Wednesday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Thursday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Friday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Saturday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+                <div class="timing-row">
+                    <span class="day">Sunday</span>
+                    <span class="hours">Closes 9 PM</span>
+                </div>
+            </div>
+            
+            <p class="timings-note">Opening times can vary — call 063828 82628 to confirm before you head over.</p>
+        </div>
+    </section>
+
+    <!-- Visit/Contact Section -->
+    <section id="visit" class="visit">
+        <div class="container">
+            <h2 class="section-title">Visit</h2>
+            <h3 class="section-subtitle">Find us on Forest Office Road</h3>
+            
+            <div class="visit-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>Rainbow Gym & Fitness Spa, Forest Office Road, West Mullaivanam, Chinnamanur, Megamalai, Tamil Nadu 625515</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <p><a href="tel:06382882628">063828 82628</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>WhatsApp</h4>
+                        <p><a href="https://wa.me/916382882628">Message us</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Rating</h4>
+                        <p>⭐ 4.9 · 80+ ratings (Justdial) · 4.9★ (Google)</p>
+                    </div>
+                    <div class="visit-actions">
+                        <a href="https://wa.me/916382882628" class="btn btn-primary">Message on WhatsApp</a>
+                        <a href="https://maps.google.com/?q=Rainbow+Gym+Fitness+Spa+Chinnamanur" class="btn btn-secondary" target="_blank">Get Directions</a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.5!2d77.3!3d9.85!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTEnMDAuMCJOIDc3wrAxOCcwMC4wIkU!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Rainbow Gym & Fitness Spa · Chinnamanur, Megamalai · Est. 2003</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
